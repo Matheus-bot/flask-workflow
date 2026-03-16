@@ -16,7 +16,7 @@ def livros():
 
 @app.route("/autores")
 def autores():
-    return "Lista de autores cadastrados"
+    return "Lista completa de autores"
 
 if __name__ == "__main__":
 
