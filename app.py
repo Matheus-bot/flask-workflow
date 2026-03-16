@@ -12,7 +12,7 @@ def sobre():
 
 @app.route("/livros")
 def livros():
-    return "Lista de livros cadastrados"
+    return "Lista completa de livros da biblioteca"
 
 if __name__ == "__main__":
 
