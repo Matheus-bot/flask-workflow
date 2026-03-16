@@ -25,7 +25,7 @@ def contato():
 
 @app.route("/cadastro-livro")
 def cadastro_livro():
-    return "Cadastro de livros"
+    return "Formulário de cadastro de livros"
 
 if __name__ == "__main__":
 
