@@ -22,6 +22,11 @@ def autores():
 def contato():
     return "Página de contato"
 
+
+@app.route("/cadastro-livro")
+def cadastro_livro():
+    return "Cadastro de livros"
+
 if __name__ == "__main__":
 
     app.run(debug=True)
