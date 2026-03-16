@@ -14,6 +14,10 @@ def sobre():
 def livros():
     return "Lista completa de livros da biblioteca"
 
+@app.route("/autores")
+def autores():
+    return "Lista completa de autores"
+
 if __name__ == "__main__":
 
     app.run(debug=True)
