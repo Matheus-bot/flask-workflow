@@ -12,7 +12,7 @@ def sobre():
 
 @app.route("/livros")
 def livros():
-    return "Lista completa de livros da biblioteca"
+    return "Lista completa de livros da biblioteca
 
 @app.route("/autores")
 def autores():
