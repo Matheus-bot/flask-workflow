@@ -27,7 +27,7 @@ def contato():
 def cadastro_livro():
     return "Formulário de cadastro de livros"
 
-print("Teste pipeline"  # <-- note que está faltando o parêntese
+print("Teste pipeline" ) # <-- note que está faltando o parêntese
 
 if __name__ == "__main__":
 
